@@ -1,6 +1,7 @@
 #!/bin/bash -xve
 
 #required packages
+pip install --upgrade pip
 pip install catkin_pkg
 pip install empy
 pip install pyyaml
@@ -13,7 +14,6 @@ cd ./ros_setup_scripts_Ubuntu14.04_server
 bash ./step0.bash
 bash ./step1.bash
 
-sudo pip install --upgrade pip
 sudo apt-get install ros-indigo-tf ros-indigo-tf2-geometry-msgs
 
 #catkin setup
