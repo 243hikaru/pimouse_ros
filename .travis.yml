@@ -1,6 +1,7 @@
 sudo: required
 dist: trusty
-install:
+#install:
+script:
   - bash -xve ./test/travis_ros_install.bash
 #  - source ~/catkin_ws/devel/setup.bash
 #before_script:
